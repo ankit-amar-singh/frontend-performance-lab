@@ -6,12 +6,11 @@
 [![TanStack Virtual](https://img.shields.io/badge/TanStack-Virtualization-FF4154?style=for-the-badge)](https://tanstack.com/virtual/v3)
 [![Vitest](https://img.shields.io/badge/Vitest-Unit_%26_Bench-6E9F18?style=for-the-badge&logo=vitest)](https://vitest.dev/)
 
-> **Personal Engineering Showcase Project**  
 Interactive laboratory demonstrating measurable Core Web Vitals (LCP, INP, CLS) optimization strategies: 5,000+ item List Virtualization, off-main-thread Web Worker dataset sorting, dynamic code splitting with React.lazy, and zero-CLS image asset optimization.
 
 ---
 
-## 🎯 What Recruiters & Engineering Managers Will See
+## 🎯 Key Architectural Highlights
 
 - **List Virtualization (DOM Windowing)**: Compares 5,000 un-virtualized DOM elements vs windowed virtualization reducing DOM count to ~15 active nodes.
 - **Off-Main-Thread Processing (Web Workers)**: Eliminates Interaction to Next Paint (INP) spikes by offloading 50,000 record array sorts to a dedicated Web Worker thread.
